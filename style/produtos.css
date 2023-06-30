@@ -1,0 +1,37 @@
+.pordutos {
+    width: 100%;
+    height: 100%;
+}
+.fotos_produtos {
+    width: 100%;
+    display: flex;
+}
+
+.milks {
+    display: flex;
+    width: 50%;
+}
+
+.cones {
+    display: flex;
+    width: 50%;
+}
+
+.imagem_leite,
+.imagem_orange,
+.imagem_cone,
+.imagem_cubo {
+    width: 50%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .fotos_produtos {
+        display: block;
+    }
+
+    .milks,
+    .cones {
+        width: 100%;
+    }
+}

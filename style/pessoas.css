@@ -1,0 +1,94 @@
+.pessoas {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+    height: 100%;
+    margin: 50px 0;
+}
+
+.titulo_pessoas {
+    font-family: var(--font-secundaria);
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--grayish-blue);
+    text-align: center;
+}
+
+.pessoa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.card_pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 25%;
+}
+
+.Emily, .Thomas, .Jennie {
+    width: 23%;
+    border-radius: 300px;
+}
+
+.descricao_pessoas {
+    font-family: var(--font-principal);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--dark-desatured-blue);
+    text-align: center;
+}
+
+.nome {
+    font-family: var(--font-secundaria);
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+
+.profissao {
+    font-family: var(--font-principal);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--grayish-blue);
+}
+
+@media screen and (max-width: 800px) {
+    .titulo_pessoas {
+        font-size: 30px;
+    }
+
+    .pessoas {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .pessoa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin: 4em 0;
+    }
+
+    .card_pessoa {
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    .descricao_pessoas, .profissao {
+        font-size: 14px;
+    }
+
+    .nome {
+        font-size: 20px;
+    }
+
+
+}

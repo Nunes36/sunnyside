@@ -1,0 +1,257 @@
+.frutas {
+    display: block;
+}
+
+.container_ovo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.container_copo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container_texto {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.ovo {
+    width:50%;
+}
+
+.imagem_ovo {
+    width: 100%;
+}
+.copo {
+    width:50%;
+}
+
+.imagem_copo {
+    width: 100%;
+}
+
+.container_titulo {
+    font-family: var(--font-secundaria);
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--dark-blue);
+}
+
+.container_descricao {
+    font-family: var(--font-principal);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--dark-cyan);
+}
+
+.link_learn {
+    font-family: var(--font-principal);
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+    border-bottom: 1px dashed yellow;
+    width: 100px;
+}
+
+.fotos {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+@media screen and (max-width: 912px) {
+    .fotos {
+        height: 60vh;
+    }
+}
+
+
+.foto_cereja {
+    width: 100%;
+    height: 100%;
+}
+
+.img_cereja {
+    display: block;
+    width: 100%;
+}
+
+.img_mobile-cereja {
+    display: none;
+}
+
+.foto_mexirica {
+    width: 100%;
+    height: 100%;
+}
+
+.img_mexirica {
+    display: block;
+    width: 100%;
+}
+
+.img_mobile-mexirica {
+    display: none;
+}
+
+.graphic_cereja {
+    display: block;
+    width: 64%;
+    height: 90%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 160px;
+
+}
+.graphic_mexirica {
+    display: block;
+    width: 64%;
+    height: 90%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 160px;
+}
+
+.titulos_fotos {
+    font-family: var(--font-secundaria);
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--dark-blue);
+    text-align: center;
+}
+
+.descricao_design {
+    font-family: var(--font-principal);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--dark-cyan);
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .graphic_cereja, .graphic_mexirica {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .descricao_design {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .frutas {
+        display: block;
+    }
+
+    .container_ovo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .ovo {
+        width: 100%;
+    }
+
+    .imagem_ovo {
+        width: 100%;
+    }
+    .container_copo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .copo {
+        width: 100%;
+    }
+
+    .imagem_copo {
+        width: 100%;
+    }
+
+    .container_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        width: 80%;
+        height: 100%;
+        padding: 5em 0;
+    }
+
+    .container_titulo {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container_descricao {
+        font-size: 18px;
+    }
+
+    .link_learn {
+        font-size: 14px;
+    }
+
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .foto_cereja {
+        width: 100%;
+        height: 545px;
+    }
+
+    .img_cereja {
+        display: none;
+    }
+
+    .img_mobile-cereja {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img_mobile-mexirica {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .foto_mexirica {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .img_mexirica {
+        display: none;
+    }
+
+    .graphic_cereja {
+        width: 62%;
+        position: relative;
+        bottom: 250px;
+    }
+    
+    .graphic_mexirica {
+        width: 70%;
+        position: relative;
+        bottom: 250px;
+    }
+
+    .titulos_fotos {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}

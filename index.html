@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/header.css">
+  <link rel="stylesheet" href="/style/sunnyside.css">
+  <link rel="stylesheet" href="/style/frutas.css">
+  <link rel="stylesheet" href="/style/pessoas.css">
+  <link rel="stylesheet" href="/style/produtos.css">
+  <link rel="stylesheet" href="/style/footer.css">
+
+  
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <img src="./images/logo.svg" alt="Logo" class="imagem_logo"/>
+        <nav class="menu">
+          <button class="btn-mobile">
+            <span class="hamburguer"></span>
+          </button>
+      <ul class="menu_navegacao">    
+          <li><a href="#" class="link">About</a></li>
+          <li><a href="#" class="link">Services</a></li>
+          <li><a href="#" class="link">Projects</a></li>
+          <li><a href="#" class="link">Contact</a></li>
+      </ul>    
+    </nav>
+  </header>
+  
+<main class="main">
+  <section class="sunnyside">
+    <img src="./images/desktop/image-header.jpg" class="imagem_header" width="100%" height="100%"/>
+    <img src="./images/mobile/image-header.jpg" class="imagem_mobile" width="100%" height="100%"/>
+    <div class="area">
+      <h1 class="titulo_header">We are creatives</h1>
+      <img src="images/icon-arrow-down.svg" class="seta">
+    </div> 
+  </section>  
+
+  <section class="frutas">
+    <article class="container_ovo">
+      <div class="container_texto">
+        <h2 class="container_titulo">Transform your brand</h2>
+          <p class="container_descricao">
+            We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <label class="link_learn">Learn more</label>
+      </div>
+        <figure class="ovo">
+          <img src="./images/desktop/image-transform.jpg" alt="imagem" class="imagem_ovo" />
+        </figure>
+    </article>
+    <article class="container_copo">
+        <figure class="copo">
+          <img src="./images/desktop/image-stand-out.jpg" alt="imagem" class="imagem_copo" />
+        </figure>
+        <div class="container_texto">
+          <h3 class="container_titulo">Stand out to the right audience</h3>
+          <p class="container_descricao">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+          <label class="link_learn">Learn more</label>
+        </div>
+    </article>
+    <article class="fotos">
+        <figure class="foto_cereja">
+            <img src="./images/desktop/image-graphic-design.jpg" alt="imagem" class="img_cereja">
+            <img src="./images/mobile/image-graphic-design.jpg" alt="imagem" class="img_mobile-cereja">
+            <div class="graphic_cereja">
+                  <h4 class="titulos_fotos">Graphic design</h4>
+                    <p class="descricao_design">design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+              </div>
+            </figure>
+        <figure class="foto_mexirica">
+          <img src="./images/desktop/image-photography.jpg" alt="imagem" class="img_mexirica">
+          <img src="./images/mobile/image-photography.jpg" alt="imagem" class="img_mobile-mexirica">
+          <div class="graphic_mexirica">
+              <h4 class="titulos_fotos">Photography</h4>
+                <p class="descricao_design">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+          </div>
+        </figure>
+    </article>
+  </section>
+  
+  <section class="pessoas">
+    <h5 class="titulo_pessoas">Client testimonials</h5> 
+    <article class="pessoa">
+        <div class="card_pessoa">
+            <img src="./images/image-emily.jpg" class="Emily" alt="imagem"/>  
+            <p class="descricao_pessoas">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            <span class="nome">Emily R.</span> 
+            <span class="profissao">Marketing Director</span> 
+       </div>
+        <div class="card_pessoa">
+            <img src="./images/image-thomas.jpg" class="Thomas" alt="imagem"/>
+            <p class="descricao_pessoas">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+            
+            <span class="nome">Thomas S.</span>
+            <span class="profissao">Chief Operating Officer</span>
+         
+          </div>
+        <div class="card_pessoa">
+            <img src="./images/image-jennie.jpg" class="Jennie"/>
+            <p class="descricao_pessoas">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+           
+            <span class="nome">Jennie F.</span>
+            <span class="profissao">Business Owner</span>
+        
+        </div>
+    </article>
+  </section>
+  
+  <section class="produtos">
+    <aside class="fotos_produtos">
+      <figure class="milks">
+        <img src="./images/desktop/image-gallery-milkbottles.jpg" class="imagem_leite"/>
+        <img src="./images/desktop/image-gallery-orange.jpg" class="imagem_orange"/>
+      </figure>
+      <figure class="cones">
+        <img src="./images/desktop/image-gallery-cone.jpg" class="imagem_cone"/>  
+        <img src="./images/desktop/image-gallery-sugarcubes.jpg" class="imagem_cubo"/>
+      </figure>
+    </aside>  
+  </section>    
+</main>
+
+  <footer>
+        <figure class="sunnyside_footer">
+          <a href="/" class="link_logo"><img src="./images/logo.svg" class="logo_footer" alt="imagem"/></a>
+        </figure>
+        <ul class="link_footer">
+          <li class="links_footer">About</li>
+          <li class="links_footer">Services</li>
+          <li class="links_footer">Projects</li>
+        </ul>
+        <figure class="icon">
+          <a href="#" class="icones"><img src="./images/icon-facebook.svg" alt="icone facebook" class="imagem_icone"></a>
+          <a href="#" class="icones"><img src="./images/icon-instagram.svg" alt="icone instagram" class="imagem_icone"></a>
+          <a href="#" class="icones"><img src="./images/icon-twitter.svg" alt="icone twitter" class="imagem_icone"></a>
+          <a href="#" class="icones"><img src="./images/icon-pinterest.svg" alt="icone pinterest" class="imagem_icone"></a>
+        </figure> 
+</footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
